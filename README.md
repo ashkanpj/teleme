@@ -435,8 +435,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
+git clone https://github.com/ashkanpj/teleme.git
+cd teleme
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -458,11 +458,7 @@ open file ./data/config.lua
 add your id to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
-    YourID
+    8888888
   }
 ```
 then start the bot again
